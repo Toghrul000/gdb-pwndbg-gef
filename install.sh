@@ -48,10 +48,7 @@ cp gdbinit ~/.gdbinit
 
 {
     echo "[+] Creating files..."
-    sudo cp gdb-peda /usr/bin/gdb-peda &&
-        sudo cp gdb-peda-arm /usr/bin/gdb-peda-arm &&
-        sudo cp gdb-peda-intel /usr/bin/gdb-peda-intel &&
-        sudo cp gdb-pwndbg /usr/bin/gdb-pwndbg &&
+    sudo cp gdb-pwndbg /usr/bin/gdb-pwndbg &&
         sudo cp gdb-gef /usr/bin/gdb-gef
 } || {
     echo "[-] Permission denied"
